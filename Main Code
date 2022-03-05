@@ -1,0 +1,24 @@
+if val == "Addition" or "Add" or "add" or "addition":
+    a = int(input("Enter the first value = "))
+    b = int(input("Enter the second value = "))
+    print("The result = ",add(a,b))
+elif val == "Subtraction" or "Sub" or "sub" or "subtraction":
+    a = int(input("Enter the first value = "))
+    b = int(input("Enter the second value = "))
+    print("The result = ",sub(a,b))
+elif val == "Multiplication" or "Mul" or "mul" or "multiplication": 
+    a = int(input("Enter the first value = "))
+    b = int(input("Enter the second value = "))
+    print("The result = ",mul(a,b))
+elif val == "Division" or "Div" or "div" or "division":
+    a = int(input("Enter the first value = "))
+    b = int(input("Enter the second value = "))
+    print("The result = ",div(a,b))
+elif val == "Modulus" or "Mod" or "mod" or "modulus": 
+    a = int(input("Enter the first value = "))
+    b = int(input("Enter the second value = "))
+    print("The result = ",mod(a,b))
+elif val == "Power" or "Pow" or "pow" or "power":
+    a = int(input("Enter the first value = "))
+    b = int(input("Enter the second value = "))
+    print("The result = ",power(a,b))

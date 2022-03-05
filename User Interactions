@@ -1,0 +1,3 @@
+print("Hi, welcome to EasyCal, the world's first calculator to be built using python")
+print("What would you like to do today?")
+val = input("Type here = ")
